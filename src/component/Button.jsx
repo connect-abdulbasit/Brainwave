@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonSvg from "../assets/svg/ButtonSvg";
 const Button = ({ className, href, onClick, px, white, children }) => {
-  const classes = `button relative infline-flex items-center justify-center h-11 transitions-colors ${
+  const classes = `button relative inline-flex items-center justify-center h-11 transitions-colors ${
     className || ""
   } ${px || "px-7"} ${white ? "text-n-8" : "text-n-1"}`;
   const spanClasses = "relative z-10";
