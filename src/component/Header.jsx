@@ -8,10 +8,11 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { useEffect, useState } from "react";
 const Header = () => {
   const location = useLocation();
-  const [openNavigation, setOpenNavigation] = useState(false);
+  const [openNavigation, setOpenNavigation] = useState(true);
   const ToggleOpenNavigation = () => {
     const navigation = !openNavigation;
     setOpenNavigation(navigation);
+    console.log(openNavigation);
   };
   const handleClick = () => {
     setOpenNavigation(false);

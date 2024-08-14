@@ -14,7 +14,7 @@
 }
 
 * {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth
 }
 
 @layer base {
@@ -24,65 +24,65 @@
 }
 
 .rotate-45 {
-  @apply rotate-[45deg];
+  @apply rotate-[45deg]
 }
 
 .rotate-90 {
-  @apply rotate-[90deg];
+  @apply rotate-[90deg]
 }
 
 .rotate-135 {
-  @apply rotate-[135deg];
+  @apply rotate-[135deg]
 }
 
 .rotate-180 {
-  @apply rotate-[180deg];
+  @apply rotate-[180deg]
 }
 
 .rotate-225 {
-  @apply rotate-[225deg];
+  @apply rotate-[225deg]
 }
 
 .rotate-270 {
-  @apply rotate-[270deg];
+  @apply rotate-[270deg]
 }
 
 .rotate-315 {
-  @apply rotate-[315deg];
+  @apply rotate-[315deg]
 }
 
 .rotate-360 {
-  @apply rotate-[360deg];
+  @apply rotate-[360deg]
 }
 
 .-rotate-45 {
-  @apply rotate-[-45deg];
+  @apply rotate-[-45deg]
 }
 
 .-rotate-90 {
-  @apply rotate-[-90deg];
+  @apply rotate-[-90deg]
 }
 
 .-rotate-135 {
-  @apply rotate-[-135deg];
+  @apply rotate-[-135deg]
 }
 
 .-rotate-180 {
-  @apply rotate-[-180deg];
+  @apply rotate-[-180deg]
 }
 
 .-rotate-225 {
-  @apply rotate-[-225deg];
+  @apply rotate-[-225deg]
 }
 
 .-rotate-270 {
-  @apply rotate-[-270deg];
+  @apply rotate-[-270deg]
 }
 
 .-rotate-315 {
-  @apply rotate-[-315deg];
+  @apply rotate-[-315deg]
 }
 
 .-rotate-360 {
-  @apply rotate-[-360deg];
+  @apply rotate-[-360deg]
 }

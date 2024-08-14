@@ -1,13 +1,13 @@
-import React from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Button from "./component/Button";
-import Header from "./component/Header";
-import Sections from "./component/Sections";
-import { Hero } from "./component/Hero";
-import Benefits from "./component/Benefits";
-import Collaboration from "./component/Collaboration";
-import Services from "./component/Services";
-import Roadmap from "./component/Roadmap";
+import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Pricing from "./components/Pricing";
+import Roadmap from "./components/Roadmap";
+import Services from "./components/Services";
+
 const App = () => {
   return (
     <>
@@ -17,8 +17,13 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        
+        <Pricing />
         <Roadmap />
+
+        <Footer />
       </div>
+
       <ButtonGradient />
     </>
   );
